@@ -1,7 +1,59 @@
 body {
-  background: #000;
+  background: #D9F9FF;
+  color: #2D4C52;
+  font-family: 'Catamaran', sans-serif;
+}
+
+header {
+  background: #AEC7CC;
+  padding: 154px 0 100px;
+  color: #2D4C52;
+  font-family: 'Catamaran', sans-serif;
 }
 
 h1 {
-  color: #FF2734;
+  color: #2D4C52;
+  font-family: 'Catamaran Bold', sans-serif;
+  font-size: 50px;
+}
+
+
+a {
+  color: #D9F9FF;
+}
+
+.portrait {
+  float: right;
+}
+
+.project-section {
+  background-color: #2D4C52;
+  color: #D9F9FF;
+}
+
+nav {
+  background-color: #2D4C52;
+  clear: right;
+  float: right;
+  font-family: 'Catamaran', sans-serif;
+  opacity: 0.8;
+}
+
+footer {
+  background-color: #2D4C52;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+@font-face {
+    font-family: "Catamaran Bold";
+    src: url("./Catamaran/Catamaran-Bold.ttf");
 }
