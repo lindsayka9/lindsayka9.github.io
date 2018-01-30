@@ -1,25 +1,34 @@
 body {
-  background: #D9F9FF;
-  color: #2D4C52;
+  background: #F2F2F2;
+  color: #1A2601;
   font-family: 'Catamaran', sans-serif;
 }
 
 header {
-  background: #AEC7CC;
+  background: #667339;
   padding: 154px 0 100px;
-  color: #2D4C52;
+  color: #F2F2F2;
   font-family: 'Catamaran', sans-serif;
+  font-size: 20px;
+  text-shadow: .5px .5px 1px #0A0B0D, 0 0 .5em #1A2601, 0 0 0.2em #1A2601;;
 }
 
 h1 {
-  color: #2D4C52;
+  color: #F2F2F2;
   font-family: 'Catamaran Bold', sans-serif;
   font-size: 50px;
+  text-shadow: 1.25px 1.25px 2.5px #0A0B0D, 0 0 1em #1A2601, 0 0 0.2em #1A2601;
 }
-
+/*
+h1 {
+  color: #0A0B0D;
+  font-family: 'Catamaran Bold', sans-serif;
+  font-size: 50px;
+  text-shadow: 1.25px 1.25px 2.5px #F2F2F2;
+} */
 
 a {
-  color: #D9F9FF;
+  color: #F2F2F2;
 }
 
 .portrait {
@@ -27,20 +36,20 @@ a {
 }
 
 .project-section {
-  background-color: #2D4C52;
-  color: #D9F9FF;
+  background-color: #1A2601;
+  color: #F2F2F2;
 }
 
 nav {
-  background-color: #2D4C52;
+  background-color: #0A0B0D;
   clear: right;
   float: right;
   font-family: 'Catamaran', sans-serif;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 footer {
-  background-color: #2D4C52;
+  background-color: #1A2601;
 }
 
 @media (min-width: 992px) {
@@ -56,4 +65,55 @@ section {
 @font-face {
     font-family: "Catamaran Bold";
     src: url("./Catamaran/Catamaran-Bold.ttf");
+}
+
+.image-placeholder {
+    background-color: #eee;
+    display: flex;
+    float: left;
+    height: 190px;
+    margin: 5px;
+    width: 220px;
+}
+
+.photo-placeholder {
+    background-color: #eee;
+    border: 2px solid black;
+    clear: right;
+    display: flex;
+    float: right;
+    height: 190px;
+    margin: 5px;
+    width: 220px;
+}
+
+.photo-placeholder > h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+.text-placeholder {
+    display: flex;
+    float: left;
+    height: 190px;
+    margin: 5px;
+    width: 220px;
+}
+
+.image-placeholder > h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+
+.hello {
+  clear: left;
+  float: left;
+}
+
+.lead {
+  clear: left;
+  float: left;
 }
