@@ -76,6 +76,14 @@ section {
     width: 220px;
 }
 
+.links-external {
+  display: flex;
+  float: left;
+  height: 190px;
+  margin: 5px;
+  width: 220px;
+}
+
 .photo-placeholder {
     background-color: #eee;
     border: 2px solid black;
