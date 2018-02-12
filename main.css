@@ -10,6 +10,8 @@ header {
   color: #F2F2F2;
   font-family: 'Catamaran', sans-serif;
   font-size: 20px;
+  height: 500px;
+  text-align: center;
   text-shadow: .5px .5px 1px #0A0B0D, 0 0 .5em #1A2601, 0 0 0.2em #1A2601;;
 }
 
@@ -17,6 +19,7 @@ h1 {
   color: #F2F2F2;
   font-family: 'Catamaran Bold', sans-serif;
   font-size: 50px;
+  margin-top: 90px;
   text-shadow: 1.25px 1.25px 2.5px #0A0B0D, 0 0 1em #1A2601, 0 0 0.2em #1A2601;
 }
 /*
@@ -32,7 +35,10 @@ a {
 }
 
 .portrait {
-  float: right;
+  align-items: center;
+  border: 2px solid #1A2601;
+  margin-left: 60px;
+  width: 180px;
 }
 
 .project-section {
@@ -69,6 +75,7 @@ section {
 
 .image-placeholder {
     background-color: #eee;
+    border: 2px solid white;
     display: flex;
     float: left;
     height: 190px;
@@ -79,9 +86,16 @@ section {
 .links-external {
   display: flex;
   float: left;
-  height: 190px;
+  height: 20px;
   margin: 5px;
+  text-align: center;
   width: 220px;
+}
+
+.external-link-project {
+  clear: both;
+  padding: 15px;
+  text-align: center;
 }
 
 .photo-placeholder {
@@ -95,17 +109,16 @@ section {
     width: 220px;
 }
 
-.photo-placeholder > h4 {
-    align-self: center;
-    text-align: center;
-    width: 100%;
+.project-name {
+  text-align: center;
+  text-decoration: underline;
 }
 
 
 .text-placeholder {
-    display: flex;
-    float: left;
-    height: 190px;
+    /* display: flex;
+    float: left; */
+    /* height: 100px; */
     margin: 5px;
     width: 220px;
 }
@@ -117,11 +130,14 @@ section {
 }
 
 .hello {
-  clear: left;
-  float: left;
+  font-size: 50px;
+  text-align: center;
 }
 
 .lead {
-  clear: left;
-  float: left;
+  text-align: justify;
+}
+
+.project-desc {
+  text-align: justify;
 }
