@@ -76,10 +76,11 @@ section {
 .image-placeholder {
     background-color: #eee;
     border: 2px solid white;
-    display: flex;
+    display: block;
     float: left;
     height: 190px;
-    margin: 5px;
+    margin: auto;
+    text-align: center;
     width: 220px;
 }
 
