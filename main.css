@@ -135,6 +135,10 @@ section {
   text-align: center;
 }
 
+i {
+  width: 100px;
+}
+
 .lead {
   text-align: justify;
 }
