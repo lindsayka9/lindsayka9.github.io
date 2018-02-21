@@ -135,8 +135,8 @@ section {
   text-align: center;
 }
 
-i {
-  width: 100px;
+.devicon {
+  font-size: 50px;
 }
 
 .lead {
