@@ -32,6 +32,19 @@ h1 {
 
 a {
   color: #F2F2F2;
+  display: block;
+  text-align: center;
+}
+
+.resume {
+  background: #667339;
+  border: 1px solid #1A2601;
+  border-radius: 5px;
+  color: #F2F2F2;
+  font-size: 20px;
+  margin: 5px auto;
+  padding: 3px;
+  text-decoration: none;
 }
 
 .portrait {
@@ -135,8 +148,14 @@ section {
   text-align: center;
 }
 
+.icon {
+  text-align: center;
+  float: left;
+  font-size: 70px;
+}
+
 .devicon {
-  font-size: 50px;
+  margin: 20px;
 }
 
 .lead {
