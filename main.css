@@ -36,11 +36,6 @@ a {
   text-align: center;
 }
 
-.pht {
-  display: block;
-  text-align: center;
-}
-
 .resume {
   background: #667339;
   border: 1px solid #1A2601;
@@ -91,18 +86,25 @@ section {
     src: url("./Catamaran/Catamaran-Bold.ttf");
 }
 
+/* .pht {
+  align-items: center;
+  margin: auto;
+	display: block;
+} */
+
 .image-placeholder {
     background-color: #eee;
     border: 2px solid white;
-    display: block;
+    display: block; */
     float: left;
     height: 190px;
     margin: auto;
-    text-align: center;
     width: 220px;
 }
 
 .links-external {
+  align-items: center;
+  clear: both;
   display: flex;
   float: left;
   height: 20px;
@@ -112,9 +114,15 @@ section {
 }
 
 .external-link-project {
+  background: #667339;
+  border: 2px solid #1A2601;
+  border-radius: 5px;
   clear: both;
-  padding: 15px;
+  float: left;
+  padding: 10px;
+  margin: 10px auto;
   text-align: center;
+  width: auto;
 }
 
 .photo-placeholder {
@@ -134,13 +142,13 @@ section {
 }
 
 
-.text-placeholder {
+/* .text-placeholder {
     /* display: flex;
     float: left; */
     /* height: 100px; */
-    margin: 5px;
+    /* margin: 5px;
     width: 220px;
-}
+} */
 
 .image-placeholder > h4 {
     align-self: center;
@@ -168,5 +176,6 @@ section {
 }
 
 .project-desc {
+  padding: 0 15px;
   text-align: justify;
 }
