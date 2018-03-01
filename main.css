@@ -5,7 +5,9 @@ body {
 }
 
 header {
-  background: #667339;
+  background: url("https://i.imgur.com/6SP7ZDw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 154px 0 100px;
   color: #F2F2F2;
   font-family: 'Catamaran', sans-serif;
@@ -69,6 +71,10 @@ nav {
 
 footer {
   background-color: #1A2601;
+}
+
+.footer-text {
+  text-shadow: 1.25px 1.25px 2.5px #0A0B0D, 0 0 1em #1A2601, 0 0 0.2em #1A2601;
 }
 
 @media (min-width: 992px) {
@@ -178,4 +184,20 @@ section {
 .project-desc {
   padding: 0 15px;
   text-align: justify;
+}
+
+.contact-section {
+  background-color: #667339;
+  color: white;
+  text-shadow: 1.25px 1.25px 2.5px #0A0B0D, 0 0 1em #1A2601, 0 0 0.2em #1A2601;
+
+}
+
+.end {
+  height: 100px;
+  padding: 0;
+}
+
+.contact-info {
+  font-size: 20px;
 }
