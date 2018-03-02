@@ -32,7 +32,7 @@ h1 {
   color: #F2F2F2;
   font-family: 'Catamaran', sans-serif;
   font-size: 50px;
-  font-weight: 700;
+  /* font-weight: 700; */
   margin-top: 90px;
   text-shadow: 1.25px 1.25px 2.5px #0A0B0D, 0 0 1em #1A2601, 0 0 0.2em #1A2601;
 }
