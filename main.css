@@ -17,10 +17,22 @@ header {
   text-shadow: .5px .5px 1px #0A0B0D, 0 0 .5em #1A2601, 0 0 0.2em #1A2601;;
 }
 
+.project-head {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  text-shadow: 1.25px 1.25px 2.5px #0A0B0D, 0 0 1em #1A2601, 0 0 0.2em #1A2601;
+}
+
+.skills-head{
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+}
+
 h1 {
   color: #F2F2F2;
-  font-family: 'Catamaran Bold', sans-serif;
+  font-family: 'Catamaran', sans-serif;
   font-size: 50px;
+  font-weight: 700;
   margin-top: 90px;
   text-shadow: 1.25px 1.25px 2.5px #0A0B0D, 0 0 1em #1A2601, 0 0 0.2em #1A2601;
 }
@@ -87,10 +99,10 @@ section {
   padding: 150px 0;
 }
 
-@font-face {
-    font-family: "Catamaran Bold";
+/* @font-face {
+    font-family: "Catamaran";
     src: url("./Catamaran/Catamaran-Bold.ttf");
-}
+} */
 
 /* .pht {
   align-items: center;
@@ -189,7 +201,8 @@ section {
 .contact-section {
   background-color: #667339;
   color: white;
-  text-shadow: 1.25px 1.25px 2.5px #0A0B0D, 0 0 1em #1A2601, 0 0 0.2em #1A2601;
+  font-family: 'Catamaran', sans-serif;
+  text-shadow: .75px .75px 1.25px #0A0B0D, 0 0 .5em #1A2601, 0 0 0.1em #1A2601;
 
 }
 
